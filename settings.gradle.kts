@@ -2,6 +2,7 @@ rootProject.name = "NZHike"
 enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 
 pluginManagement {
+    includeBuild("build-logic")
     repositories {
         google {
             mavenContent {
@@ -26,6 +27,10 @@ dependencyResolutionManagement {
         }
         mavenCentral()
     }
+}
+
+plugins {
+    id("org.gradle.toolchains.foojay-resolver-convention") version "1.0.0"
 }
 
 include(":composeApp")
