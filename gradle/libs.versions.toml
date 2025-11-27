@@ -49,7 +49,7 @@ moko = "0.19.1"
 buildkonfig = "0.17.1"
 kermit = "2.0.8"
 
-projectApplicationId = "com.plcoding.chirp"
+projectApplicationId = "com.plcoding.nzhike"
 projectVersionName = "1.0"
 projectMinSdkVersion = "26"
 projectTargetSdkVersion = "36"
@@ -57,7 +57,7 @@ projectCompileSdkVersion = "36"
 projectVersionCode = "1"
 
 # Desktop Version
-desktopPackageName = "Chirp"
+desktopPackageName = "NZ Hike"
 desktopPackageVersion = "1.0.0"
 runner = "1.7.0"
 junit = "1.3.0"
